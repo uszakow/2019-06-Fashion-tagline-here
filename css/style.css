@@ -747,6 +747,9 @@ body{
 	}
 }
 @media(max-width: 800px){
+	.main-block .in800only2:nth-child(n+3){
+		display: none;
+	}
 	.header-top{
 		margin: 26px auto;
 		align-items: center;
@@ -851,6 +854,9 @@ body{
 	}
 }
 @media(max-width: 520px){
+	.main-block .in800only2:nth-child(n+2){
+		display: none;
+	}
 	.header-top{
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -932,6 +938,17 @@ body{
 		right: -26px;
 	}
 
+	.slide-photo{
+		height: calc(100% - 200px);
+		top: 0;
+	}
+	.slider-floatwindow{
+		width: 100%;
+		justify-content: center;
+	}	
+	.slider-floatwindow-img{
+		display: none;
+	}
 	.specialoffer-timer-numbers{
 		font-size: 14px;
 	}
